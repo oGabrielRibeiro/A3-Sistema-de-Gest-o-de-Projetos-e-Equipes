@@ -6,5 +6,5 @@
 
 ## Rodar
 ```bash
-mvn -q -DskipTests package
-mvn -q exec:java
+mvn -q -DskipTests clean package
+mvn -q -DskipTests javafx:run
